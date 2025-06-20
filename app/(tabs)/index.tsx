@@ -9,10 +9,10 @@ import {
   View
 } from 'react-native';
 
-import { fetchRoutes } from '@/app/services/api/routes';
+import { fetchRoutes } from '@/services/api/routes';
 import { RouteOption } from '@/types/navigation';
 import { Clock, MapPin, Navigation, Route as RouteIcon } from '../../assets/icons';
-import { useLocationContext } from '../LocationContext';
+import { useLocationContext } from '../../contexts/LocationContext';
 import styles from './index.styles';
 
 export default function InputScreen() {

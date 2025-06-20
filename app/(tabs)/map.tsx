@@ -3,7 +3,7 @@ import { useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useRef } from 'react';
 import {
   Alert,
-  Linking,
+  Linking, Platform,
   Text,
   TouchableOpacity,
   View
@@ -68,13 +68,17 @@ export default function MapScreen() {
           Linking.openURL(url);
         },
       },
-      {
-        text: 'Apple Maps',
-        onPress: () => {
-          const url = `http://maps.apple.com/?saddr=${parsedStart.latitude},${parsedStart.longitude}&daddr=${parsedEnd.latitude},${parsedEnd.longitude}&dirflg=d`;
-          Linking.openURL(url);
-        },
-      },
+      ...(Platform.OS === 'ios'
+          ? [
+            {
+              text: 'Apple Maps',
+              onPress: () => {
+                const url = `http://maps.apple.com/?saddr=${parsedStart.latitude},${parsedStart.longitude}&daddr=${parsedEnd.latitude},${parsedEnd.longitude}&dirflg=d`;
+                Linking.openURL(url);
+              },
+            },
+          ]
+          : []),
     ]);
   };
 

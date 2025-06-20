@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   listContainer: {
+    padding:4,
     paddingBottom: 20,
   },
   locationItem: {
@@ -77,4 +78,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default styles; 
+export default styles;

@@ -1,4 +1,4 @@
-import { fetchLocations } from '@/app/services/api/routes';
+import { fetchLocations } from '@/services/api/routes';
 import { Clock, MapPin, Search } from '@/assets/icons';
 import { Location } from '@/types/navigation';
 import { router, useLocalSearchParams } from 'expo-router';
@@ -12,7 +12,7 @@ import {
   TouchableOpacity,
   View
 } from 'react-native';
-import { useLocationContext } from '../LocationContext';
+import { useLocationContext } from '@/contexts/LocationContext';
 import styles from './search.styles';
 
 export default function LocationSearchScreen() {

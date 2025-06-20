@@ -1,4 +1,21 @@
 # Welcome to your Expo app 👋
+## Demo
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+   <div style="text-align: center;">
+      <p style="font-weight: bold; font-size: 18px;">iOS</p>
+      <video src="assets/videos/ios_simulator.mp4" width="350" height="700" controls>
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
+   <div style="text-align: center;">
+      <p style="font-weight: bold; font-size: 18px;">Android</p>
+      <video src="assets/videos/android.mov" width="350" height="700" controls>
+         Your browser does not support the video tag.
+      </video>
+   </div>
+</div>
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
