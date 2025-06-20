@@ -11,7 +11,7 @@
 
    <div style="text-align: center;">
       <p style="font-weight: bold; font-size: 18px;">Android</p>
-      <video src="assets/videos/android.mov" width="350" height="700" controls>
+      <video src="assets/videos/android.mp4" width="350" height="700" controls>
          Your browser does not support the video tag.
       </video>
    </div>
