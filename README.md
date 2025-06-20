@@ -1,21 +1,12 @@
 # Welcome to your Expo app 👋
 ## Demo
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-   <div style="text-align: center;">
-      <p style="font-weight: bold; font-size: 18px;">iOS</p>
-      <video src="assets/videos/ios_simulator.mp4" width="350" height="700" controls>
-         Your browser does not support the video tag.
-      </video>
-   </div>
+### iOS
+[![iOS Demo](https://via.placeholder.com/350x700.png?text=Click+to+View+iOS+Demo)](https://www.veed.io/view/7b0916d3-af32-4f80-a1c1-975ae3cfd690?panel=share)
 
-   <div style="text-align: center;">
-      <p style="font-weight: bold; font-size: 18px;">Android</p>
-      <video src="assets/videos/android.mp4" width="350" height="700" controls>
-         Your browser does not support the video tag.
-      </video>
-   </div>
-</div>
+### Android
+[![Android Demo](https://via.placeholder.com/350x700.png?text=Click+to+View+Android+Demo)](https://www.veed.io/view/c5d1cf52-ebee-4bd9-b287-23a35c62a662?panel=share)
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
